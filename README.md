@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# E-Learning Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an E-Learning platform built with React. It allows users to browse and learn various courses. The platform is designed to provide a seamless learning experience with a user-friendly interface and interactive content. Users can explore a wide range of courses, view detailed information about each course, and learn through structured chapters that include videos and other resources. 
+
+## Project Features
+
+- **Hero Section**: The landing page with a welcoming message.
+- **Navigation**: A navigation bar to switch between different sections.
+- **Courses**: A list of available courses.
+- **Course Details**: Detailed information about each course.
+- **Learn**: A section to learn the chapters of a course.
+- **Chapter**: Detailed information about each chapter including videos.
+
+## Dependencies
+
+- `react`
+- `react-dom`
+- `react-router-dom`
+
+## Folder Structure
+
+- **components**: Contains reusable components like Button, Card, ErrorToast, Loader, and Nav.
+- **context**: Contains the Theme context for managing light and dark themes.
+- **data**: Contains the courses data in JSON format.
+- **pages**: Contains the main pages of the application like Hero, Courses, Details, Learn, and Chapter.
+
+## How to Use
+
+1. Clone the repository.
+2. Install the dependencies using `npm install`.
+3. Run the application using `npm start`.
 
 ## Available Scripts
 
@@ -11,60 +39,29 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Home Page**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Home Page](./assets/home.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Courses page**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Courses Page](./assets/courses.png)
 
-## Learn More
+- **Learn page**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Learn Page](./assets/learn.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Course Details page**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Course Details Page](./assets/course-details.png)
