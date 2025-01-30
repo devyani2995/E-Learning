@@ -58,10 +58,14 @@ Launches the test runner in the interactive watch mode.
 
 ![Courses Page](./assets/courses.png)
 
-- **Learn page**
+- **Learning page**
 
 ![Learn Page](./assets/learn.png)
 
 - **Course Details page**
 
 ![Course Details Page](./assets/course-details.png)
+
+## Hosted URL
+
+https://codingninjas-e-learning-app.netlify.app
